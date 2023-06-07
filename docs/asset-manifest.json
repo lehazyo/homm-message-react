@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/homm-message-react/static/css/main.4d26b4b4.css",
-    "main.js": "/homm-message-react/static/js/main.ecbaecf6.js",
+    "main.js": "/homm-message-react/static/js/main.cb8e52eb.js",
     "static/media/homm2-panel-bg.png": "/homm-message-react/static/media/homm2-panel-bg.2fd924fa473d06032922.png",
     "index.html": "/homm-message-react/index.html",
     "main.4d26b4b4.css.map": "/homm-message-react/static/css/main.4d26b4b4.css.map",
-    "main.ecbaecf6.js.map": "/homm-message-react/static/js/main.ecbaecf6.js.map"
+    "main.cb8e52eb.js.map": "/homm-message-react/static/js/main.cb8e52eb.js.map"
   },
   "entrypoints": [
     "static/css/main.4d26b4b4.css",
-    "static/js/main.ecbaecf6.js"
+    "static/js/main.cb8e52eb.js"
   ]
 }
