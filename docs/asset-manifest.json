@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ee644e1.css",
-    "main.js": "/static/js/main.c274d2b3.js",
-    "static/media/homm2-panel-bg.png": "/static/media/homm2-panel-bg.2fd924fa473d06032922.png",
-    "index.html": "/index.html",
-    "main.0ee644e1.css.map": "/static/css/main.0ee644e1.css.map",
-    "main.c274d2b3.js.map": "/static/js/main.c274d2b3.js.map"
+    "main.css": "/homm-message-react/static/css/main.4d26b4b4.css",
+    "main.js": "/homm-message-react/static/js/main.ecbaecf6.js",
+    "static/media/homm2-panel-bg.png": "/homm-message-react/static/media/homm2-panel-bg.2fd924fa473d06032922.png",
+    "index.html": "/homm-message-react/index.html",
+    "main.4d26b4b4.css.map": "/homm-message-react/static/css/main.4d26b4b4.css.map",
+    "main.ecbaecf6.js.map": "/homm-message-react/static/js/main.ecbaecf6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ee644e1.css",
-    "static/js/main.c274d2b3.js"
+    "static/css/main.4d26b4b4.css",
+    "static/js/main.ecbaecf6.js"
   ]
 }
