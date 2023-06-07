@@ -1,0 +1,21 @@
+.canvasWrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		padding: 30px 0;
+}
+
+:global(.homm2) .canvasWrapper {
+		background-image: url(../../../public/img/homm2-wait.png);
+}
+
+:global(.homm3) .canvasWrapper {
+		background-image: url(../../../public/img/homm3-wait.png);
+}
+
+.canvas {
+		max-width: 100%;
+}

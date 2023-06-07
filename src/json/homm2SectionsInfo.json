@@ -1,0 +1,280 @@
+{
+  "evil": {
+    "width": 288,
+    "shadowWidth": 16,
+    "padding": {
+      "top": 53,
+      "right": 32,
+      "bottom": 32,
+      "bottomWithButtons": 61,
+      "left": 32
+    },
+    "buttons": {
+      "eng": {
+        "ok": {
+          "offsetX": 19,
+          "offsetY": 243
+        },
+        "cancel": {
+          "offsetX": 115,
+          "offsetY": 243
+        }
+      },
+      "rus": {
+        "ok": {
+          "offsetX": 19,
+          "offsetY": 269
+        },
+        "cancel": {
+          "offsetX": 115,
+          "offsetY": 269
+        }
+      }
+    },
+    "top": {
+      "offset": [
+        19,
+        11
+      ],
+      "size": [
+        288,
+        88
+      ],
+      "shadows": [
+        {
+          "offset": [
+            3,
+            27
+          ],
+          "size": [
+            14,
+            10
+          ],
+          "parentOffset": [
+            107,
+            16
+          ]
+        },
+        {
+          "offset": [
+            0,
+            48
+          ],
+          "size": [
+            16,
+            51
+          ],
+          "parentOffset": [
+            -16,
+            37
+          ]
+        }
+      ]
+    },
+    "middle": {
+      "offset": [
+        19,
+        100
+      ],
+      "size": [
+        288,
+        45
+      ],
+      "shadows": [
+        {
+          "offset": [
+            0,
+            100
+          ],
+          "size": [
+            16,
+            45
+          ],
+          "parentOffset": [
+            -16,
+            0
+          ]
+        }
+      ]
+    },
+    "bottom": {
+      "offset": [
+        19,
+        146
+      ],
+      "size": [
+        288,
+        68
+      ],
+      "shadows": [
+        {
+          "offset": [
+            0,
+            146
+          ],
+          "size": [
+            16,
+            61
+          ],
+          "parentOffset": [
+            -16,
+            0
+          ]
+        },
+        {
+          "offset": [
+            3,
+            216
+          ],
+          "size": [
+            288,
+            20
+          ],
+          "parentOffset": [
+            -16,
+            61
+          ]
+        }
+      ]
+    }
+  },
+  "good": {
+    "width": 290,
+    "shadowWidth": 17,
+    "padding": {
+      "top": 64,
+      "right": 32,
+      "bottom": 32,
+      "bottomWithButtons": 58,
+      "left": 32
+    },
+    "buttons": {
+      "eng": {
+        "ok": {
+          "offsetX": 345,
+          "offsetY": 243
+        },
+        "cancel": {
+          "offsetX": 441,
+          "offsetY": 243
+        }
+      },
+      "rus": {
+        "ok": {
+          "offsetX": 345,
+          "offsetY": 269
+        },
+        "cancel": {
+          "offsetX": 441,
+          "offsetY": 269
+        }
+      }
+    },
+    "top": {
+      "offset": [
+        346,
+        0
+      ],
+      "size": [
+        290,
+        99
+      ],
+      "shadows": [
+        {
+          "offset": [
+            312,
+            18
+          ],
+          "size": [
+            33,
+            20
+          ],
+          "parentOffset": [
+            97,
+            18
+          ]
+        },
+        {
+          "offset": [
+            328,
+            50
+          ],
+          "size": [
+            16,
+            49
+          ],
+          "parentOffset": [
+            -15,
+            50
+          ]
+        }
+      ]
+    },
+    "middle": {
+      "offset": [
+        346,
+        100
+      ],
+      "size": [
+        290,
+        45
+      ],
+      "shadows": [
+        {
+          "offset": [
+            327,
+            100
+          ],
+          "size": [
+            17,
+            45
+          ],
+          "parentOffset": [
+            -16,
+            0
+          ]
+        }
+      ]
+    },
+    "bottom": {
+      "offset": [
+        346,
+        146
+      ],
+      "size": [
+        290,
+        65
+      ],
+      "shadows": [
+        {
+          "offset": [
+            327,
+            146
+          ],
+          "size": [
+            17,
+            61
+          ],
+          "parentOffset": [
+            -16,
+            0
+          ]
+        },
+        {
+          "offset": [
+            331,
+            217
+          ],
+          "size": [
+            288,
+            20
+          ],
+          "parentOffset": [
+            -15,
+            61
+          ]
+        }
+      ]
+    }
+  }
+}

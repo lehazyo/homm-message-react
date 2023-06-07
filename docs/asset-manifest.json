@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ee644e1.css",
+    "main.js": "/static/js/main.c274d2b3.js",
+    "static/media/homm2-panel-bg.png": "/static/media/homm2-panel-bg.2fd924fa473d06032922.png",
+    "index.html": "/index.html",
+    "main.0ee644e1.css.map": "/static/css/main.0ee644e1.css.map",
+    "main.c274d2b3.js.map": "/static/js/main.c274d2b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ee644e1.css",
+    "static/js/main.c274d2b3.js"
+  ]
+}

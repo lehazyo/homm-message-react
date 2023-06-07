@@ -1,0 +1,131 @@
+.wrapper {
+		display: flex;
+		align-items: center;
+		position: relative;
+		white-space: nowrap;
+		text-decoration: none;
+		cursor: pointer;
+		user-select: none;
+}
+
+:global(.homm2) .wrapper {
+		height: 56px;
+		padding: 0 13px 0 16px;
+		background-image: url(../../../public/img/homm2-big-buttons.png);
+		background-position: 50% 0;
+		background-size: 1000px 62px;
+		color: #582808;
+		font-weight: 300;
+		text-shadow:
+						-2px 2px 0 #e8d0b8,
+						-1px 1px 0 #fcfcfc,
+						2px -2px 0 #c8a078,
+						1px -1px 0 #ac7c54;
+		text-transform: uppercase;
+}
+
+:global(.homm2) .wrapper:active {
+		padding-top: 2px;
+		background-position: 50% 100%;
+		text-shadow:
+						-2px 2px 0 #d0a888,
+						-1px 1px 0 #e0c4a8,
+						1px -1px 0 #844c20;
+}
+
+:global(.homm2) .wrapper::before,
+:global(.homm2) .wrapper::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 9px;
+		background-image: url(../../../public/img/homm2-big-buttons.png);
+		background-size: auto 62px;
+}
+
+:global(.homm2) .wrapper::before {
+		background-position: 0 0;
+		left: -3px;
+}
+
+:global(.homm2) .wrapper::after {
+		background-position: 100% 0;
+		right: -3px;
+}
+
+:global(.homm2) .wrapper:active::before {
+		background-position: 0 100%;
+}
+
+:global(.homm2) .wrapper:active::after {
+		background-position: 100% 100%;
+}
+
+:global(.homm3) .wrapper {
+		height: 32px;
+		padding: 0 8px;
+		background-image: url(../../../public/img/homm3-button-bg.png);
+		background-color: #2d1d0f;
+		border: 1px solid #ad8e42;
+		color: #ffe98c;
+}
+
+:global(.homm3) .wrapper::before {
+		content: "";
+		position: absolute;
+		top: 1px;
+		right: 1px;
+		bottom: 1px;
+		left: 1px;
+		border: 2px solid rgba(0, 0, 0, .8);
+		border-top: 2px solid rgba(255, 255, 255, .5);
+		border-left: 2px solid rgba(255, 255, 255, .2);
+		pointer-events: none;
+}
+
+:global(.homm3) .wrapper:active {
+		padding-top: 10px;
+		padding-bottom: 6px;
+		box-shadow: inset 1px 1px 0 #000;
+}
+
+:global(.homm3) .wrapper:active::before {
+		top: 2px;
+		left: 2px;
+		background-color: rgba(0, 0, 0, .1);
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+}
+
+@media (max-width: 1000px) {
+		:global(.homm2) .wrapper {
+				height: 28px;
+		}
+
+		:global(.homm2) .wrapper::before {
+				width: 9px;
+				background-size: auto 62px;
+		}
+}
+
+@media (min-width: 1000px) {
+		:global(.homm3) .wrapper {
+				height: 48px;
+				padding: 0 16px;
+		}
+
+		:global(.homm2) .wrapper {
+				background-size: auto;
+		}
+
+		:global(.homm3) .wrapper:active {
+				padding: 2px 15px 0 17px;
+		}
+
+		:global(.homm2) .wrapper::before,
+		:global(.homm2) .wrapper::after {
+				width: 17px;
+				background-size: auto;
+		}
+}

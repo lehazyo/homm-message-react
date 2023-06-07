@@ -1,0 +1,66 @@
+{
+  "red": {
+    "cornersOffset": [
+      192,
+      0
+    ],
+    "horizontalsOffset": 95,
+    "verticalsOffset": 0
+  },
+  "blue": {
+    "cornersOffset": [
+      192,
+      114
+    ],
+    "horizontalsOffset": 107,
+    "verticalsOffset": 10
+  },
+  "brown": {
+    "cornersOffset": [
+      306,
+      0
+    ],
+    "horizontalsOffset": 119,
+    "verticalsOffset": 20
+  },
+  "green": {
+    "cornersOffset": [
+      306,
+      114
+    ],
+    "horizontalsOffset": 131,
+    "verticalsOffset": 30
+  },
+  "orange": {
+    "cornersOffset": [
+      420,
+      0
+    ],
+    "horizontalsOffset": 143,
+    "verticalsOffset": 40
+  },
+  "violet": {
+    "cornersOffset": [
+      420,
+      114
+    ],
+    "horizontalsOffset": 155,
+    "verticalsOffset": 50
+  },
+  "teal": {
+    "cornersOffset": [
+      534,
+      0
+    ],
+    "horizontalsOffset": 167,
+    "verticalsOffset": 60
+  },
+  "pink": {
+    "cornersOffset": [
+      534,
+      114
+    ],
+    "horizontalsOffset": 179,
+    "verticalsOffset": 70
+  }
+}

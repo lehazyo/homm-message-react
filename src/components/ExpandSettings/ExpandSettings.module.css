@@ -1,0 +1,7 @@
+.button {}
+
+@media (min-width: 1000px) {
+		.button {
+				display: none;
+		}
+}

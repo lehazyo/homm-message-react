@@ -1,0 +1,36 @@
+.wrapper {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		user-select: none;
+}
+
+.wrapper:not(:first-child) {
+		margin-top: 10px;
+}
+
+.wrapper input {
+		display: none;
+}
+
+.icon {
+		background-position: 0 100%;
+}
+
+:checked + .icon {
+		background-position: 0 0;
+}
+
+:global(.homm2) .icon {
+		width: 35px;
+		height: 35px;
+		margin-right: 10px;
+		background-image: url(../../../public/img/homm2-checkbox.png);
+}
+
+:global(.homm3) .icon {
+		width: 33px;
+		height: 25px;
+		margin-right: 10px;
+		background-image: url(../../../public/img/homm3-checkbox.png);
+}

@@ -1,0 +1,45 @@
+.wrapper {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+}
+
+.input {
+		width: 100%;
+		height: 100px;
+		color: #fff;
+		font-family: Times New Roman, serif;
+		font-size: 16px;
+		line-height: 18px;
+		outline: none;
+		resize: none;
+}
+
+:global(.homm2) .input {
+		background:
+						url(../../../public/img/homm2-textarea-top-right.png) 100% 0 no-repeat,
+						url(../../../public/img/homm2-textarea-bottom-right.png) 100% 100% no-repeat,
+						url(../../../public/img/homm2-textarea-bottom-left.png) 0 100% no-repeat,
+						url(../../../public/img/homm2-textarea-top-left.png) 0 0 no-repeat,
+						url(../../../public/img/homm2-textarea-top.png) 0 0 repeat-x,
+						url(../../../public/img/homm2-textarea-right.png) 100% 0 repeat-y,
+						url(../../../public/img/homm2-textarea-bottom.png) 0 100% repeat-x,
+						url(../../../public/img/homm2-textarea-left.png) 0 0 repeat-y,
+						url(../../../public/img/homm2-textarea.png) 0 0 repeat;
+		border: 0;
+		padding: 8px 12px;
+}
+
+:global(.homm3) .input {
+		border: 1px solid #ad8e42;
+		outline-color: #ad8e42;
+		background: rgba(0, 0, 0,.6);
+		padding: 2px 4px;
+}
+
+@media (min-width: 1000px) {
+		.input {
+				height: 200px;
+				padding: 12px;
+		}
+}

@@ -1,0 +1,42 @@
+.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		width: 240px;
+}
+
+.item {
+		width: 60px;
+		height: 64px;
+		border: 1px solid transparent;
+		cursor: pointer;
+}
+
+.selected {
+		border-color: #ad8e42;
+		cursor: auto;
+}
+
+.red {
+		background: #d7201a url(../../../public/img/homm3-players/red.png);
+}
+.blue {
+		background: #4059c8 url(../../../public/img/homm3-players/blue.png);
+}
+.brown {
+		background: #d1a279 url(../../../public/img/homm3-players/brown.png);
+}
+.green {
+		background: #1f6828 url(../../../public/img/homm3-players/green.png);
+}
+.orange {
+		background: #cb680c url(../../../public/img/homm3-players/orange.png);
+}
+.violet {
+		background: #562965 url(../../../public/img/homm3-players/violet.png);
+}
+.teal {
+		background: #67a4a5 url(../../../public/img/homm3-players/teal.png);
+}
+.pink {
+		background: #d39b8a url(../../../public/img/homm3-players/pink.png);
+}

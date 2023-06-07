@@ -1,0 +1,14 @@
+.wrapper {
+    width: 200px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+    :global(.homm3) .wrapper {
+        margin-left: 30px;
+    }
+}

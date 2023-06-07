@@ -1,0 +1,88 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrapper input {
+    display: none;
+}
+
+:global(.homm2) .icon {
+    width: 19px;
+    height: 19px;
+    margin: 0 10px 0 0;
+    background-image: url(../../../public/img/homm2-radio.png);
+    background-position: 0 100%;
+}
+
+:global(.homm2) .wrapper:not(:first-child) {
+    margin-left: 20px;
+}
+
+:global(.homm3) .wrapper {
+    position: relative;
+    height: 32px;
+    padding: 0 16px;
+    margin-right: 1px;
+}
+
+:global(.homm3) :checked + .icon {
+    border: 1px solid #948a5a;
+    border-right: 1px solid #081018;
+    border-bottom: 1px solid #081018;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+:global(.homm3) :checked + .icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #f7df73;
+    border-right: 1px solid #847952;
+    border-bottom: 1px solid #737163;
+    border-left: 2px solid #ceba6b;
+}
+
+:global(.homm3) .label {
+    position: relative;
+    z-index: 2;
+}
+
+:global(.homm3) :not(:checked):active ~ .label {
+    transform: translate(1px, 1px);
+}
+
+:checked + .icon {
+    background-position: 0 0;
+}
+
+:global(.homm3) .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+:global(.homm3)  .icon {
+    background-image: url(../../../public/img/homm3-button-bg.png);
+    background-color: #2d1d0f;
+    border: 2px solid rgba(0, 0, 0, .8);
+    border-top: 2px solid rgba(255, 255, 255, .5);
+    border-left: 2px solid rgba(255, 255, 255, .2);
+}
+
+:global(.homm3)  :not(:checked):active + .icon {
+    top: 1px;
+    left: 1px;
+    box-shadow:
+        inset 100px 100px 0 rgba(0, 0, 0, .1),
+        -1px -1px 0 #000;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}

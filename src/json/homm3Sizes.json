@@ -1,0 +1,127 @@
+[
+  {
+    "width": 4,
+    "height": 2,
+    "maxTextLines": 1,
+    "lastLineWidth": 202
+  },
+  {
+    "width": 5,
+    "height": 2,
+    "maxTextLines": 1,
+    "padding": {
+      "right": 19,
+      "left": 18
+    }
+  },
+  {
+    "width": 5,
+    "height": 3,
+    "maxTextLines": 4,
+    "lines": {
+      "2": {
+        "half": 242
+      },
+      "3": {
+        "half": 222
+      },
+      "4": {
+        "resize": 206
+      }
+    }
+  },
+  {
+    "width": 5,
+    "height": 4,
+    "maxTextLines": 8,
+    "lines": {
+      "5": {
+        "half": 190
+      },
+      "6": {
+        "half": 174
+      },
+      "7": {
+        "half": 158
+      },
+      "8": {
+        "resize": 142
+      }
+    },
+    "padding": {
+      "top": 16
+    }
+  },
+  {
+    "width": 5,
+    "height": 5,
+    "maxTextLines": 9,
+    "lines": {
+      "9": {
+        "resize": 126
+      }
+    },
+    "padding": {
+      "top": 21
+    }
+  },
+  {
+    "width": 7,
+    "height": 4,
+    "maxTextLines": 8,
+    "lines": {
+      "7": {
+        "half": 286
+      },
+      "8": {
+        "resize": 270
+      }
+    },
+    "padding": {
+      "top": 16
+    }
+  },
+  {
+    "width": 10,
+    "height": 4,
+    "maxTextLines": 8,
+    "lines": {
+      "8": {
+        "resize": 466
+      }
+    },
+    "padding": {
+      "top": 25
+    }
+  },
+  {
+    "width": 10,
+    "height": 5,
+    "maxTextLines": 11,
+    "lines": {
+      "9": {
+        "half": 446
+      },
+      "10": {
+        "half": 430
+      },
+      "11": {
+        "resize": 414
+      }
+    },
+    "padding": {
+      "top": 30
+    }
+  },
+  {
+    "width": 10,
+    "height": 5,
+    "scroll": true,
+    "maxTextLines": 11,
+    "padding": {
+      "top": 29,
+      "right": 38,
+      "left": 11
+    }
+  }
+]
