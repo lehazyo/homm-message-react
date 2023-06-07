@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This tool helps create messages that replicate visual style of Heroes of Might and Magic II/III video games",
   "main": "index.js",
+  "homepage": "/homm-message-react/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
