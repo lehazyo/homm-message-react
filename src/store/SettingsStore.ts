@@ -6,7 +6,10 @@ export class SettingsStore {
     hommVersion: HommVersion = "homm3";
     homm2Theme: Homm2Theme = "good";
     homm3PlayerColor: Homm3PlayerColor = "red";
-    text: string = "Write your text in the left panel";
+
+    initialText: string = "Write your text in the text box";
+    text: string = "";
+    inputStarted: boolean = false;
 
     buttonOkay: boolean = true;
     buttonCancel: boolean = false;
@@ -35,6 +38,7 @@ export class SettingsStore {
             text: observable,
             downloadFileName: observable,
             downloadData: observable,
+            inputStarted: observable,
         });
     }
 
@@ -49,6 +53,7 @@ export class SettingsStore {
     }
 
     setText(text: string): void {
+        this.inputStarted = true;
         this.text = text;
         this.render();
     }
@@ -126,5 +131,16 @@ export class SettingsStore {
 
     setExpandSettings(expand: boolean): void {
         this.expandSettings = expand;
+    }
+
+    getTextBoxText(): string {
+        return this.text;
+    }
+
+    getImageText(): string {
+        if (this.inputStarted) {
+            return this.text;
+        }
+        return this.initialText;
     }
 }

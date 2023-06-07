@@ -51,11 +51,11 @@ export class Controller {
   }
 
   getInputValue() {
-    return this.store.text;
+    return this.store.getImageText();
   }
 
   getInputValueLength() {
-    return this.store.text.length;
+    return this.store.getImageText().length;
   }
 
   breakInputIntoWordsAndSpaces() {
